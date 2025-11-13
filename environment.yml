@@ -1,0 +1,12 @@
+name: docking-env
+channels:
+  - conda-forge
+  - rdkit
+dependencies:
+  - python=3.11
+  - rdkit
+  - gemmi
+  - requests
+  - pip
+  - pip:
+      - pymol2
